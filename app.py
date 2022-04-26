@@ -57,6 +57,7 @@ def stations():
     stations = list(np.ravel(results))
     return jsonify(stations)
 
+
 # Temp Observations 
 @app.route("/api/v1.0/tobs")
 def temp_monthly():
@@ -69,7 +70,7 @@ def temp_monthly():
 
 # Statistics
 @app.route("/app/v1.0/temp/<start>")
-@app.route("/api/v1.0/temp/<start>/<end>")
+@app.route("/api/v1.0/temp/<start>/<end>")x
 def stats(start=None, end=None):
     sel = [func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)]
 
