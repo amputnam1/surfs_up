@@ -1,6 +1,6 @@
 # surfs_up
 
-In this assigned I analyzed weather data using Python, SQLite, Flask, and SQlAlchemy
+In this assigned I analyzed weather data using Python, SQLite, Flask, and SQLAlchemy
 
 # Overview of the analysis
 
